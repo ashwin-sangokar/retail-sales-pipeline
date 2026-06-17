@@ -1,0 +1,22 @@
+RETAIL SALES PIPELINE — DATA QUALITY REPORT
+Generated: 2026-06-17T08:46:31
+==================================================
+
+-- Transform stage findings --
+input_rows                    : 6180
+invalid_dates                 : 0
+missing_customer_name         : 245
+missing_region                : 804
+missing_quantity              : 0
+missing_unit_price            : 0
+rows_dropped_invalid          : 102
+price_outliers_capped         : 34
+duplicate_rows_removed        : 179
+output_rows                   : 5899
+
+-- Final row counts loaded into warehouse --
+dim_customer                  : 898
+dim_product                   : 25
+dim_region                    : 6
+dim_date                      : 730
+fact_sales                    : 5899
